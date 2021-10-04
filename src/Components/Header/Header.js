@@ -32,7 +32,7 @@ const Header = () => {
                             <Nav.Link as={Link} to={"/about"}>About</Nav.Link>
                             <Nav.Link as={Link} to={"/courses"}>Courses</Nav.Link>
                             <Nav.Link as={Link} to={"/events"}>Events </Nav.Link>
-                            <Nav.Link as={Link} to={"/notfound"}></Nav.Link>
+
 
 
 
@@ -44,7 +44,7 @@ const Header = () => {
                                 className="me-2"
                                 aria-label="Search"
                             />
-                            <Button variant="outline-success">Search</Button>
+                            <Button variant="white rounded">Search</Button>
                         </Form>
                     </Navbar.Collapse>
                 </Container>

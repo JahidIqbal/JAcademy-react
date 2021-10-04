@@ -9,13 +9,13 @@ const Course = (props) => {
             <Card >
                 <Card.Img variant="top" src={Img} />
                 <Card.Body>
-                    <Card.Title>Title:{title}</Card.Title>
-                    <Card.Text>Instructor:{Instructor}</Card.Text>
+                    <Card.Title className="h2">{title}</Card.Title>
+                    <Card.Text className="h5">Instructor:{Instructor}</Card.Text>
                 </Card.Body>
                 <ListGroup className="list-group-flush">
-                    <ListGroupItem>price:${price}</ListGroupItem>
-                    <ListGroupItem>Enrolled:{Enrolled}</ListGroupItem>
-                    <ListGroupItem>Lesson:{Lesson}</ListGroupItem>
+                    <ListGroupItem className="h5">price:${price}</ListGroupItem>
+                    <ListGroupItem className="h5">Enrolled:{Enrolled}</ListGroupItem>
+                    <ListGroupItem className="h5">Lesson:{Lesson}</ListGroupItem>
                 </ListGroup>
 
             </Card>

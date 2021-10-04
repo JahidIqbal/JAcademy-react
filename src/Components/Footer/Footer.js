@@ -3,8 +3,6 @@ import React from 'react';
 import { Card, Form, FormControl } from 'react-bootstrap';
 
 
-
-
 const Footer = () => {
     return (
         <div className="container">

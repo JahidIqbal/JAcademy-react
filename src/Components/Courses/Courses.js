@@ -12,6 +12,7 @@ const Courses = () => {
 
     return (
         <div>
+            <p className="h1 fw-bold ">More Online Courses For Y'all</p>
             <Row xs={1} md={2} className="g-4">
                 {
                     programs.map(program => <Program program={program}></Program>)
