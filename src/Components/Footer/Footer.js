@@ -7,7 +7,7 @@ import { Card, Form, FormControl } from 'react-bootstrap';
 
 const Footer = () => {
     return (
-        <div>
+        <div className="container">
             <Card className="w-75 mx-auto bg-dark text-white">
                 <Card.Header>JAcademy</Card.Header>
                 <Card.Body>

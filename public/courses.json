@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "Img": "https://image.freepik.com/free-photo/young-female-student-listening-her-english-teacher_23-2148999527.jpg",
+        "title": "Listening Practice",
+        "Instructor": "Max",
+        "price": 200,
+        "Enrolled": 20,
+        "Lesson": 20
+    },
+    {
+        "id": 2,
+        "Img": "https://image.freepik.com/free-photo/motivation-colleagues_1098-15967.jpg",
+        "title": "Speaking Practice",
+        "Instructor": "Taylor",
+        "price": 250,
+        "Enrolled": 30,
+        "Lesson": 25
+    },
+    {
+        "id": 3,
+        "Img": "https://image.freepik.com/free-photo/pleased-male-teacher-wearing-glasses-holding-reading-book-with-magnifier-sitting-table-with-school-tools-classroom_141793-114029.jpg",
+        "title": "Reading Practice",
+        "Instructor": "James",
+        "price": 300,
+        "Enrolled": 35,
+        "Lesson": 30
+    },
+    {
+        "id": 4,
+        "Img": "https://image.freepik.com/free-photo/elegant-young-teacher-with-brunette-hair-stylish-light-shirt-black-striped-suit-glasses-holding-writings-pen-giving-lecture_197531-24666.jpg",
+        "title": "Writting Practice",
+        "Instructor": "David",
+        "price": 240,
+        "Enrolled": 40,
+        "Lesson": 40
+    }
+]

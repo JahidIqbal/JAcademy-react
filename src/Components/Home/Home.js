@@ -1,16 +1,23 @@
-import React from 'react';
-import { Carousel, Container, Navbar } from 'react-bootstrap';
+import React, { useEffect, useState } from 'react';
+import { Carousel, Row } from 'react-bootstrap';
 import img from '../../Images/learn-english.jpg'
 import img2 from '../../Images/exam.jpg'
 import img3 from '../../Images/speak.jpg'
-import { Link } from 'react-router-dom';
+import Course from '../Course/Course';
 
 
 
 const Home = () => {
+    const [courses, setCourses] = useState([])
+    useEffect(() => {
+        fetch('./courses.json')
+            .then(res => res.json())
+            .then(data => setCourses(data))
+    }, [])
     return (
 
         <div className=" mx-auto w-50 mb-5">
+            <h1 className=" fw-bolder">Welcome To our JAcademy</h1>
             <Carousel>
                 <Carousel.Item interval={1000}>
                     <img
@@ -20,7 +27,7 @@ const Home = () => {
                     />
                     <Carousel.Caption>
                         <h3>You are worried about English?</h3>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        <p>Well its easy!You just need to have faith</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item interval={500}>
@@ -31,7 +38,7 @@ const Home = () => {
                     />
                     <Carousel.Caption>
                         <h3>Wan to Know learn more?</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <p>We will help you to understand the topic.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -42,11 +49,24 @@ const Home = () => {
                     />
                     <Carousel.Caption>
                         <h3>Do you speak english?</h3>
-                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                        <p>communication comes with co-operation.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
+            <div className="container mx-auto mt-5">
+                <h2 className=" fw-bolder">Explore Our Online Courses</h2>
+                <Row xs={1} md={2} className="g-4">
+                    {
+                        courses.map(course => <Course
+                            key={course.id}
+                            course={course}
+                        ></Course>)
+                    }
+                </Row>
+            </div>
         </div>
+
+
     );
 };
 
