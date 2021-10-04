@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "Img": "https://image.freepik.com/free-photo/young-female-student-listening-her-english-teacher_23-2148999527.jpg",
+        "title": "Listening Practice",
+        "Instructor": "Max",
+        "price": 200,
+        "Enrolled": 20,
+        "Lesson": 20
+    },
+    {
+        "id": 2,
+        "Img": "https://image.freepik.com/free-photo/motivation-colleagues_1098-15967.jpg",
+        "title": "Speaking Practice",
+        "Instructor": "Taylor",
+        "price": 250,
+        "Enrolled": 30,
+        "Lesson": 25
+    },
+    {
+        "id": 3,
+        "Img": "https://image.freepik.com/free-photo/pleased-male-teacher-wearing-glasses-holding-reading-book-with-magnifier-sitting-table-with-school-tools-classroom_141793-114029.jpg",
+        "title": "Reading Practice",
+        "Instructor": "James",
+        "price": 300,
+        "Enrolled": 35,
+        "Lesson": 30
+    },
+    {
+        "id": 4,
+        "Img": "https://image.freepik.com/free-photo/elegant-young-teacher-with-brunette-hair-stylish-light-shirt-black-striped-suit-glasses-holding-writings-pen-giving-lecture_197531-24666.jpg",
+        "title": "Writting Practice",
+        "Instructor": "David",
+        "price": 240,
+        "Enrolled": 40,
+        "Lesson": 40
+    },
+    {
+        "id": 5,
+        "Img": "https://as2.ftcdn.net/v2/jpg/03/30/42/71/500_F_330427114_Kkupr4XPKgXlMtzj5viDubeeo25CmRdx.jpg",
+        "title": "English Language club",
+        "Instructor": "Moyes",
+        "price": 30,
+        "Enrolled": 100,
+        "Lesson": 45
+    },
+    {
+        "id": 6,
+        "Img": "https://img.freepik.com/free-photo/customer-service-operator-talking-phone-office_1301-7537.jpg?size=626&ext=jpg",
+        "title": "Supporting Center",
+        "Instructor": "Monica",
+        "price": 5,
+        "Enrolled": 75,
+        "Lesson": 67
+    },
+    {
+        "id": 7,
+        "Img": "https://image.freepik.com/free-photo/row-students-doing-exam_1098-174.jpg?2",
+        "title": "Mock Test",
+        "Instructor": "scholes",
+        "price": 30,
+        "Enrolled": 50,
+        "Lesson": 88
+    }
+]

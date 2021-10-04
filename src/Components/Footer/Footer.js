@@ -23,7 +23,7 @@ const Footer = () => {
                             aria-label="Search"
 
                         />
-                        <Button className="bg-dark text-white border radius rounded-top w-25" variant="outline-dark dark">Send</Button>
+                        <Button className="bg-dark text-white border radius rounded-top w-50" variant="outline-dark dark">Send</Button>
                     </Form>
 
                 </Card.Body>
